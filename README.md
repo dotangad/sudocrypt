@@ -1,7 +1,7 @@
 # Sudocrypt 2020
 
 Platform for Sudocrypt 2020, a map-based text adventure. Built with Next.js,
-next-auth, Prisma and Postgres.
+next-auth, Prisma and MySQL.
 
 ## Setup
 - Install `mysql` and `node`.
