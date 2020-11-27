@@ -4,26 +4,31 @@ Platform for Sudocrypt 2020, a map-based text adventure. Built with Next.js,
 next-auth, Prisma and Postgres.
 
 ## Setup
-- Install `mysql` and `node`
-- Clone the repositories and install dependencies
+- Install `mysql` and `node`.
+- Clone the repositories and install dependencies.
 ```sh
 git clone https://github.com/dotangad/sudocrypt
 cd sudocrypt
 yarn
 ```
-- Fill out the `.env.local` file with the following values
+- Go over to the [Discord dev portal](https://discord.com/developers) and create an app. Add `https://localhost:3000/api/auth/callback/discord` as a valid redirect URI and copy the client ID and secret.
+- Fill out the `.env.local` file with the following values.
 ```
 DATABASE_URL=                         # MySQL connection URL
 AUTH_SECRET=                          # Random string for authentication
 NEXTAUTH_URL="http://localhost:3000"  # URL where your app is running (this is used to generate the callback URL by next-auth)
-DISCORD_CLIENT_ID=                    # Discord Client ID (get this after creating an app on the Discord developer portal)
-DISCORD_CLIENT_SECRET=                # Discord Client Secret
+DISCORD_CLIENT_ID=
+DISCORD_CLIENT_SECRET=
 ```
-- Start the app
+- Run database migrations.
+```
+DATABASE_URL=<your databse url> yarn prisma migrate up --experimental
+```
+- Start the app.
 ```
 npm run dev
 ```
-- You should have a local version of Sudocrypt v10.0 at `https://localhost:3000` 🎉
+- You should have a local version of Sudocrypt v10.0 at `https://localhost:3000` 🎉.
 
 ## TODO
 - [x] Command handler and TUI
