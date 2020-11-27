@@ -1,0 +1,49 @@
+:root {
+  --text-color: #eaeaef;
+}
+
+html::-webkit-scrollbar,
+#scrollbar::-webkit-scrollbar,
+#__next::-webkit-scrollbar,
+#__content::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb,
+#scrollbar::-webkit-scrollbar-thumb,
+#__next::-webkit-scrollbar-thumb,
+#__content::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: #eaeaef30;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: #161516;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+  color: var(--text-color);
+}
+
+#__next {
+  height: 100%;
+  width: 100%;
+}
+
+#__content {
+  height: 100%;
+  width: 100%;
+  max-width: 840px;
+  padding: 20px;
+  margin: 0 auto;
+}

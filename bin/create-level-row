@@ -1,0 +1,49 @@
+#!/usr/bin/env node
+require("dotenv").config({ path: ".env.local" });
+
+const { PrismaClient } = require("@prisma/client");
+const client = new PrismaClient();
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function main() {
+  try {
+    console.log("ONLY RUN THIS SCRIPT IF THE HUNT HAS NOT BEGUN YET");
+    console.log("I WILL WAIT 30 SECONDS FOR YOU TO RECONSIDER YOUR DECISION");
+    await sleep(30000);
+    console.log("Alright, remember you did this yourself");
+
+    const users = await client.userMeta.findMany();
+
+    for (let user of users) {
+      console.log(
+        `Creating visitedNode for user with id ${user.id} - ${user.name} (${user.discord})`
+      );
+      const n = await client.userLevel.findFirst({
+        where: { userId: user.id, level: 0 },
+      });
+
+      if (n) {
+        console.log(
+          `Exists userLevel for user with id ${user.id} - ${user.name} (${user.discord})`
+        );
+        continue;
+      }
+
+      await client.userLevel.create({
+        data: { user: { connect: { id: user.id } }, level: 0 },
+      });
+      console.log(
+        `Created visitedNode for user with id ${user.id} - ${user.name} (${user.discord})`
+      );
+    }
+
+    console.log("I hope you tee'd this somewhere");
+    process.exit(0);
+  } catch (e) {
+    console.error(e);
+    process.exit(1);
+  }
+}
+
+main();

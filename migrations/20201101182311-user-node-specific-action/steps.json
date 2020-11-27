@@ -1,0 +1,51 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "CreateField",
+      "model": "UserMeta",
+      "field": "nodeSpecificActionTaken",
+      "type": "Boolean",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateDirective",
+      "location": {
+        "path": {
+          "tag": "Field",
+          "model": "UserMeta",
+          "field": "nodeSpecificActionTaken"
+        },
+        "directive": "default"
+      }
+    },
+    {
+      "tag": "CreateArgument",
+      "location": {
+        "tag": "Directive",
+        "path": {
+          "tag": "Field",
+          "model": "UserMeta",
+          "field": "nodeSpecificActionTaken"
+        },
+        "directive": "default"
+      },
+      "argument": "",
+      "value": "false"
+    },
+    {
+      "tag": "CreateField",
+      "model": "UserMeta",
+      "field": "commands",
+      "type": "Command",
+      "arity": "List"
+    },
+    {
+      "tag": "CreateField",
+      "model": "UserMeta",
+      "field": "nodes",
+      "type": "VisitedNodes",
+      "arity": "List"
+    }
+  ]
+}

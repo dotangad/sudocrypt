@@ -1,0 +1,194 @@
+{
+  "0": {
+    "level": "This is level 0",
+    "answer": "answer123",
+    "points": 50,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "5": {
+    "level": "This is level 5",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "6": {
+    "level": "This is level 6",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "7": {
+    "level": "This is level 7",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "13": {
+    "level": "This is level 13",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "17": {
+    "level": "This is level 17",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "20": {
+    "level": "This is level 20",
+    "answer": "answer123",
+    "points": 50,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "23": {
+    "level": "This is level 23",
+    "answer": "answer123",
+    "points": 50,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "25": {
+    "level": "This is level 25",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "30": {
+    "level": "This is level 30",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "31": {
+    "level": "This is level 31",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "34": {
+    "level": "This is level 34",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "36": {
+    "level": "This is level 36",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "39": {
+    "level": "This is level 39",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "40": {
+    "level": "This is level 40",
+    "answer": "answer123",
+    "points": 50,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "43": {
+    "level": "This is level 43",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "45": {
+    "level": "This is level 45",
+    "answer": "answer123",
+    "points": 50,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "46": {
+    "level": "This is level 46",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "48": {
+    "level": "This is level 48",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "50": {
+    "level": "This is level 50",
+    "answer": "answer123",
+    "points": 50,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "51": {
+    "level": "This is level 51",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "53": {
+    "level": "This is level 53",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "55": {
+    "level": "This is level 55",
+    "answer": "answer123",
+    "points": 50,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "56": {
+    "level": "This is level 56",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "61": {
+    "level": "This is level 61",
+    "answer": "answer123",
+    "points": 50,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "62": {
+    "level": "This is level 62",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "63": {
+    "level": "This is level 63",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "64": {
+    "level": "This is level 64",
+    "answer": "answer123",
+    "points": 50,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "67": {
+    "level": "This is level 67",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "68": {
+    "level": "This is level 68",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "70": {
+    "level": "This is level 70",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  },
+  "71": {
+    "level": "This is level 71",
+    "answer": "answer123",
+    "points": 100,
+    "flagging": { "time": 60, "attempts": 20 }
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "0": {
+    "type": "OpenLevel",
+    "message": "Welcome to Sudocrypt!",
+    "level": 0,
+    "options": {
+      "up": 1
+    }
+  },
+  "1": {
+    "type": "Key",
+    "options": {
+      "left": 2,
+      "down": 0,
+      "right": 3
+    }
+  },
+  "2": {
+    "type": "Empty",
+    "options": {
+      "up": 71,
+      "left": 25,
+      "down": 1,
+      "right": 26
+    }
+  },
+  "3": {
+    "type": "Empty",
+    "options": {
+      "up": 4,
+      "left": 1
+    }
+  },
+  "4": {
+    "type": "Empty",
+    "options": {
+      "up": 5,
+      "left": 7,
+      "down": 3,
+      "right": 6
+    }
+  },
+  "5": {
+    "type": "OpenLevel",
+    "level": 5,
+    "options": {
+      "left": 8,
+      "down": 4,
+      "right": 9
+    }
+  },
+  "6": {
+    "type": "OpenLevel",
+    "level": 6,
+    "options": {
+      "up": 12,
+      "left": 4
+    }
+  },
+  "7": {
+    "type": "OpenLevel",
+    "level": 7,
+    "options": {
+      "up": 8,
+      "right": 4
+    }
+  },
+  "8": {
+    "type": "Empty",
+    "options": {
+      "up": 11,
+      "down": 7,
+      "right": 5
+    }
+  },
+  "9": {
+    "type": "Empty",
+    "options": {
+      "up": 10,
+      "left": 5
+    }
+  },
+  "10": {
+    "type": "Empty",
+    "options": {
+      "left": 11,
+      "down": 9
+    }
+  },
+  "11": {
+    "type": "Empty",
+    "options": {
+      "up": 13,
+      "down": 8,
+      "right": 10
+    }
+  },
+  "12": {
+    "type": "Empty",
+    "options": {
+      "up": 15,
+      "left": 13,
+      "down": 6
+    }
+  },
+  "13": {
+    "type": "OpenLevel",
+    "level": 13,
+    "options": {
+      "up": 16,
+      "left": 14,
+      "down": 11,
+      "right": 12
+    }
+  },
+  "14": {
+    "type": "Empty",
+    "options": {
+      "up": 17,
+      "right": 13
+    }
+  },
+  "15": {
+    "type": "Empty",
+    "options": {
+      "left": 20,
+      "down": 12
+    }
+  },
+  "16": {
+    "type": "Empty",
+    "options": {
+      "left": 17,
+      "down": 13,
+      "right": 18
+    }
+  },
+  "17": {
+    "type": "OpenLevel",
+    "level": 17,
+    "options": {
+      "up": 22,
+      "down": 14,
+      "right": 16
+    }
+  },
+  "18": {
+    "type": "Empty",
+    "options": {
+      "left": 16,
+      "right": 19
+    }
+  },
+  "19": {
+    "type": "Empty",
+    "options": {
+      "up": 20,
+      "left": 18
+    }
+  },
+  "20": {
+    "type": "OpenLevel",
+    "level": 20,
+    "options": {
+      "left": 21,
+      "down": 19,
+      "right": 15
+    }
+  },
+  "21": {
+    "type": "Empty",
+    "options": {
+      "up": 23,
+      "right": 20
+    }
+  },
+  "22": {
+    "type": "Empty",
+    "options": {
+      "up": 46,
+      "left": 45,
+      "down": 17,
+      "right": 23
+    }
+  },
+  "23": {
+    "type": "OpenLevel",
+    "level": 23,
+    "options": {
+      "left": 22,
+      "down": 21
+    }
+  },
+  "24": {
+    "type": "Empty",
+    "options": {
+      "up": 29,
+      "down": 25,
+      "right": 71
+    }
+  },
+  "25": {
+    "type": "OpenLevel",
+    "level": 25,
+    "options": {
+      "up": 24,
+      "right": 2
+    }
+  },
+  "26": {
+    "type": "Empty",
+    "options": {
+      "left": 2,
+      "right": 27
+    }
+  },
+  "27": {
+    "type": "Key",
+    "options": {
+      "up": 28,
+      "left": 26
+    }
+  },
+  "28": {
+    "type": "Empty",
+    "options": {
+      "up": 31,
+      "down": 27
+    }
+  },
+  "29": {
+    "type": "Empty",
+    "options": {
+      "up": 39,
+      "left": 30,
+      "down": 24,
+      "right": 31
+    }
+  },
+  "30": {
+    "type": "OpenLevel",
+    "level": 30,
+    "options": {
+      "up": 41,
+      "right": 29
+    }
+  },
+  "31": {
+    "type": "OpenLevel",
+    "level": 31,
+    "options": {
+      "left": 29,
+      "down": 28,
+      "right": 32
+    }
+  },
+  "32": {
+    "type": "Empty",
+    "options": {
+      "up": 33,
+      "left": 31
+    }
+  },
+  "33": {
+    "type": "Empty",
+    "options": {
+      "left": 36,
+      "down": 32,
+      "right": 34
+    }
+  },
+  "34": {
+    "type": "OpenLevel",
+    "level": 34,
+    "options": {
+      "up": 35,
+      "left": 33
+    }
+  },
+  "35": {
+    "type": "Empty",
+    "options": {
+      "left": 38,
+      "down": 34
+    }
+  },
+  "36": {
+    "type": "OpenLevel",
+    "level": 36,
+    "options": {
+      "up": 37,
+      "right": 33
+    }
+  },
+  "37": {
+    "type": "Empty",
+    "options": {
+      "up": 40,
+      "left": 39,
+      "down": 36,
+      "right": 38
+    }
+  },
+  "38": {
+    "type": "Empty",
+    "options": {
+      "left": 37,
+      "right": 35
+    }
+  },
+  "39": {
+    "type": "OpenLevel",
+    "level": 39,
+    "options": {
+      "down": 29,
+      "right": 37
+    }
+  },
+  "40": {
+    "type": "OpenLevel",
+    "level": 40,
+    "options": {
+      "left": 41,
+      "down": 37,
+      "right": 42
+    }
+  },
+  "41": {
+    "type": "Empty",
+    "options": {
+      "down": 30,
+      "right": 40
+    }
+  },
+  "42": {
+    "type": "Portal",
+    "portalTo": 69,
+    "options": {
+      "up": 43,
+      "left": 40
+    }
+  },
+  "43": {
+    "type": "LockedLevel",
+    "level": 43,
+    "options": {
+      "down": 42,
+      "right": 44
+    }
+  },
+  "44": {
+    "type": "Empty",
+    "options": {
+      "up": 45,
+      "left": 43
+    }
+  },
+  "45": {
+    "type": "OpenLevel",
+    "level": 45,
+    "options": {
+      "down": 44,
+      "right": 22
+    }
+  },
+  "46": {
+    "type": "LockedLevel",
+    "level": 46,
+    "options": {
+      "left": 57,
+      "right": 47
+    }
+  },
+  "47": {
+    "type": "Empty",
+    "options": {
+      "up": 51,
+      "left": 46,
+      "right": 48
+    }
+  },
+  "48": {
+    "type": "OpenLevel",
+    "level": 48,
+    "options": {
+      "up": 49,
+      "left": 47
+    }
+  },
+  "49": {
+    "type": "Key",
+    "options": {
+      "left": 50,
+      "down": 48
+    }
+  },
+  "50": {
+    "type": "OpenLevel",
+    "level": 50,
+    "options": {
+      "down": 52,
+      "right": 49
+    }
+  },
+  "51": {
+    "type": "OpenLevel",
+    "level": 51,
+    "options": {
+      "left": 69,
+      "down": 47,
+      "right": 52
+    }
+  },
+  "52": {
+    "type": "Empty",
+    "options": {
+      "up": 50,
+      "left": 51
+    }
+  },
+  "53": {
+    "type": "OpenLevel",
+    "level": 53,
+    "options": {
+      "left": 54,
+      "down": 69
+    }
+  },
+  "54": {
+    "type": "Empty",
+    "options": {
+      "up": 55,
+      "right": 53
+    }
+  },
+  "55": {
+    "type": "OpenLevel",
+    "level": 55,
+    "options": {
+      "left": 67,
+      "down": 54
+    }
+  },
+  "56": {
+    "type": "OpenLevel",
+    "level": 56,
+    "options": {
+      "left": 60,
+      "down": 59,
+      "right": 57
+    }
+  },
+  "57": {
+    "type": "Empty",
+    "options": {
+      "up": 63,
+      "left": 56,
+      "right": 46
+    }
+  },
+  "58": {
+    "type": "Key",
+    "options": {
+      "left": 59
+    }
+  },
+  "59": {
+    "type": "Empty",
+    "options": {
+      "up": 56,
+      "left": 61,
+      "right": 58
+    }
+  },
+  "60": {
+    "type": "Empty",
+    "options": {
+      "up": 62,
+      "down": 61,
+      "right": 56
+    }
+  },
+  "61": {
+    "type": "OpenLevel",
+    "level": 61,
+    "options": {
+      "up": 60,
+      "right": 59
+    }
+  },
+  "62": {
+    "type": "LockedLevel",
+    "level": 62,
+    "options": {
+      "left": 64,
+      "down": 60,
+      "right": 63
+    }
+  },
+  "63": {
+    "type": "OpenLevel",
+    "level": 63,
+    "options": {
+      "up": 65,
+      "left": 62,
+      "down": 57
+    }
+  },
+  "64": {
+    "type": "OpenLevel",
+    "level": 64,
+    "options": {
+      "right": 62
+    }
+  },
+  "65": {
+    "type": "Empty",
+    "options": {
+      "left": 66,
+      "down": 63
+    }
+  },
+  "66": {
+    "type": "Empty",
+    "options": {
+      "up": 68,
+      "right": 65
+    }
+  },
+  "67": {
+    "type": "LockedLevel",
+    "level": 67,
+    "options": {
+      "up": 70,
+      "left": 68,
+      "right": 55
+    }
+  },
+  "68": {
+    "type": "OpenLevel",
+    "level": 68,
+    "options": {
+      "down": 66,
+      "right": 67
+    }
+  },
+  "69": {
+    "type": "Portal",
+    "portalTo": 42,
+    "options": {
+      "up": 53,
+      "right": 51
+    }
+  },
+  "70": {
+    "type": "OpenLevel",
+    "level": 70,
+    "options": {
+      "down": 67
+    }
+  },
+  "71": {
+    "type": "OpenLevel",
+    "level": 71,
+    "options": {
+      "down": 2,
+      "left": 24
+    }
+  }
+}

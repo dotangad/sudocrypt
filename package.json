@@ -1,0 +1,35 @@
+{
+  "name": "sudocrypt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "git pull origin master && npm run build"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "@prisma/client": "^2.10.2",
+    "axios": "^0.21.0",
+    "date-fns": "^2.16.1",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
+    "next": "10.0.0",
+    "next-auth": "^3.1.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.9.6",
+    "react-query": "^2.25.2"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.10.2",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.1.2"
+  }
+}
