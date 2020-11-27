@@ -22,7 +22,7 @@ DISCORD_CLIENT_SECRET=
 ```
 - Run database migrations.
 ```
-DATABASE_URL=<your databse url> yarn prisma migrate up --experimental
+DATABASE_URL=<your database url> yarn prisma migrate up --experimental
 ```
 - Start the app.
 ```
